@@ -9,7 +9,7 @@ This is a personal cheatsheet I use when I forget some commands. Feel free to us
 ## 2. Library
 
 
-**Loss functions:**
+**Loss functions:**  
 **[Documentation](https://pytorch.org/docs/stable/nn.html#loss-functions)**
 ```python
 torch.nn.L1Loss  # Mean absolute error
@@ -19,7 +19,7 @@ torch.nn.CrossEntropyLoss # Cross-Entropy loss
 torch.nn.KLDivLoss # Kullback-Leibler divergence
 ```
 
-**Optimizers:**
+**Optimizers:**  
 **[Documentation](https://pytorch.org/docs/stable/optim.html)**
 ```python
 learning_rate = 1e-3
