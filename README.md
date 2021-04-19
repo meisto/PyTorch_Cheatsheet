@@ -8,11 +8,18 @@ This is a personal cheatsheet I use when I forget some commands. Feel free to us
 
 ## 2. Library
 
+
+**Loss functions:**
 ```python
-# Define a loss function
-loss_mae = torch.nn.L1Loss  # Mean absolute error
-loss_mse = torch.nn.MSELoss # Mean squared error
+torch.nn.L1Loss  # Mean absolute error
+torch.nn.MSELoss # Mean squared error
 torch.nn.NLLLoss # Negative log likelihood loss
 torch.nn.CrossEntropyLoss # Cross-Entropy loss
 torch.nn.KLDivLoss # Kullback-Leibler divergence
+```
+
+**Optimizers:**
+```python
+learning_rate = 1e-3
+torch.optim.SGD(model.parameters(), lr=learning_rate)   # Stochastic Gradient Descent
 ```
